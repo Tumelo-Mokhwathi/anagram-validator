@@ -106,12 +106,12 @@
 
                 if (sortedFirstWord === sortedSecondWord) {
                     document.getElementById("AnagramRow").innerHTML = 1;
-                    document.getElementById("AnagramFirstWord").innerHTML = capitalizeFirstWord(sortedFirstWord);
-                    document.getElementById("AnagramSecondWord").innerHTML = capitalizeFirstWord(sortedSecondWord);
+                    document.getElementById("AnagramFirstWord").innerHTML = firstWord;
+                    document.getElementById("AnagramSecondWord").innerHTML = secondWord;
                 } else {
                     document.getElementById("NonAnagramRow").innerHTML = 1;
-                    document.getElementById("NonAnagramFirstWord").innerHTML = capitalizeFirstWord(sortedFirstWord);;
-                    document.getElementById("NonAnagramSecondWord").innerHTML = capitalizeFirstWord(sortedSecondWord);
+                    document.getElementById("NonAnagramFirstWord").innerHTML = firstWord;
+                    document.getElementById("NonAnagramSecondWord").innerHTML = secondWord;
                 }
             }
         }
